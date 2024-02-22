@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Batery-Graphic</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="station">
+      <div class="batery">
+        <div class="loader">
+          <span class="loading" title="LOADING"></span>
+          <span class="loading" title="LOADING"></span>
+          <span class="loading" title="LOADING"></span>
+          <span class="loading" title="LOADING"></span>
+        </div>
+        <div class="box"></div>
+      </div>
+      <div class="batery">
+        <div class="loader">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="box"></div>
+      </div>
+      <div class="batery">
+        <div class="loader">
+          <span></span>
+          <span class="loading" title="LOADING"></span>
+          <span class="error" title="ERROR"></span>
+          <span class="loading" title="LOADING"></span>
+        </div>
+        <div class="box"></div>
+      </div>
+      <div class="batery">
+        <div class="loader">
+          <span class="error" title="ERROR"></span>
+          <span class="off" title="ERROR"></span>
+          <span class="off"></span>
+          <span class="off"></span>
+        </div>
+        <div class="box"></div>
+      </div>
+    </div>
+
+    <div class="explain">
+      <h2>Erklärung</h2>
+      <p>Oben sehen Sie die Baterie-Ladestation.</p>
+      <p>
+        In jedem der 4 Baterie-Boxen ist Platz für je 4 Baterien. Diese sind
+        über den Boxen mit einer kleinen roten LED dargestellt, die ihren
+        Ladestatus anzeigen.
+      </p>
+      <p>
+        Sie können die 4 Boxen aus der Station entnehmen, um eine oder mehrere
+        Baterien zu entnehmen, zu tauschen oder zu laden.
+      </p>
+      <ul>
+        <li>
+          <span class="off" title="OFF"></span> Es ist an dieser Stelle keine
+          Baterie in der Box erkannt worden.
+        </li>
+        <li>
+          <span class="loading" title="LOADING"></span> Es ist an dieser Stelle
+          eine Baterie in der Box erkannt worden und sie wird geladen.
+        </li>
+        <li>
+          <span title="FULL"></span> Es ist an dieser Stelle eine Baterie in der
+          Box erkannt worden und sie ist voll geladen.
+        </li>
+        <li>
+          <span class="error" title="ERROR"></span> Es ist an dieser Stelle eine
+          Baterie in der Box erkannt worden, welche nicht geladen werden kann
+          oder einen Defekt aufweist (bitte aus der Station entfernen!)
+        </li>
+      </ul>
+      <p>
+        Wie Sie sehen können, laden die ersten 4 Baterien in der ersten Box.
+        <br />
+        Die gesamte zweite Box ist vollständig geladen. <br />
+        In der dritten Box ist die erste Baterie vollständig geladen, die zweite
+        und vierte Baterie laden und die dritte Baterie ist defekt oder hat
+        einen Fehler <br />
+        In der vierten Box ist die erste Baterie defekt oder hat einen Fehler,
+        die zweite, dritte und vierte Baterieplätze sind nicht erkannt worden
+        oder (am wahrscheinlichsten) leer.
+      </p>
+    </div>
+  </body>
+</html>
