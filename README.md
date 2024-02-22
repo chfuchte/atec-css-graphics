@@ -6,3 +6,4 @@ Some (animated) Graphics with explainations for [https://github.com/GRBATec/proc
 
 [Bateries](https://barsch2006.github.io/atec-css-graphics/bateries/)
 [Microphone](https://barsch2006.github.io/atec-css-graphics/microphone/)
+[Headset](https://barsch2006.github.io/atec-css-graphics/headset/)
